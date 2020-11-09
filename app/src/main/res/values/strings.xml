@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Popular Movie - Stage 1</string>
+
+    <!-- TODO: remove this before submission -->
+    <string name="api_key"></string>
+
+    <string name="image_description">Poster</string>
+    <!-- Generic Movie Listing Error -->
+    <string name="error_msg_movie_listing">Unable to get movie listing from: </string>
+    <string name="error_msg_unable_to_load">Unable to load movie. Please try again.</string>
+
+    <!-- List successful -->
+    <string name="msg_movie_listing_success">Movie listing success</string>
+
+    <!-- Menu Item - Popular Movies -->
+    <string name="item_popular_movies">Popular Movies</string>
+
+    <!-- Menu Item - Top Rated -->
+    <string name="item_top_rated">Top Rated Movies</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+
+    <!-- Label -->
+    <string name="label_original_title">Original Title: </string>
+    <string name="label_overview">Plot Synopsis: </string>
+    <string name="label_user_rating">User Rating: </string>
+    <string name="label_release_date">Release Date: </string>
+
+</resources>

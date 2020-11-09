@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="horizontal|vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/inner_frame_layout_padding">
+        <!-- Poster Image -->
+        <ImageView
+            android:id="@+id/iv_poster_big"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:contentDescription="@string/image_description" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="4dp">
+
+            <!-- Original Title -->
+            <TextView
+                android:padding="2dp"
+                android:text="@string/label_original_title"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_original_title"
+                android:padding="2dp"
+                android:textSize="16sp" />
+
+            <!-- Plot -->
+            <TextView
+                android:padding="2dp"
+                android:text="@string/label_overview"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_overview"
+                android:layout_width="match_parent"
+                android:padding="2dp"
+                android:textSize="16sp" />
+
+            <!-- Vote Average -->
+            <TextView
+                android:padding="2dp"
+                android:text="@string/label_user_rating"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_user_rating"
+                android:padding="2dp"
+                android:textSize="16sp" />
+
+            <!-- Release Date -->
+            <TextView
+                android:padding="2dp"
+                android:text="@string/label_release_date"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_release_date"
+                android:textSize="16sp" />
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
